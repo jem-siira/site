@@ -109,7 +109,7 @@ Let's consider another example with the outer join.
     join2 = data1.merge(data2, on='Time', how='outer')
     join2
 
-Cool! Nowe we have all the values included from both DataFrames and if Pandas did not find a common value in the ``key`` column, it still kept them and inserted ``NaN`` values into ``Favourite_dog`` column and ``Value`` column.
+Cool! Now we have all the values included from both DataFrames and if Pandas did not find a common value in the ``key`` column, it still kept them and inserted ``NaN`` values into ``Favourite_dog`` column and ``Value`` column.
 Overall, knowing how to conduct a table join can be really handy in many different situations.
 See more examples and documentation from `official documentation of Pandas <https://pandas.pydata.org/pandas-docs/stable/merging.html>`__.
 
